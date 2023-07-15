@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 30vw;
+    width: 30vw;
+    height: 70vh;
+    background-color: #1d3557;
+    box-sizing: border-box;
+    border-radius: 5%;
+  }
+  
+  .screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+    width: 25vw;
+    height: 20vh;
+    background-color: white;
+    font-size: 50px;
+  }
+  
+  .content {
+    display: flex;
+    margin-top: 2vh;
+  }
+  
+  .number {
+    width: 40vw;
+    height: 50vh;
+    background-color: #2f3e46;
+  }
+  
+  .operators {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 50vh;
+    background-color: #001219;
+  }
+  
+  .zero {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    height: 8vh;
+    width: 5vw;
+    border-radius: 30px;
+    background-color: #f8f9fa;
+    color: black;
+    font-size: larger;
+    font-weight: 300;
+  }
+  
+  .add,
+  .mul,
+  .sub,
+  .did,
+  .C,
+  .AC {
+    margin-top: 10px;
+    height: 7vh;
+    border-radius: 80px;
+    background-color: #f8f9fa;
+    color: black;
+    font-size: larger;
+    font-weight: 300;
+  }
+  
+  
+  
+  @media screen and (max-width:950px){
+  
+      .main {
+          display: flex;
+          flex-direction: column;
+          margin-top: 10vh;
+          margin-left: 15vw;
+          width: 70vw;
+          height: 70vh;
+          background-color: #1d3557;
+          box-sizing: border-box;
+          border-radius: 5%;
+      }
+  
+      .screen {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          margin-top: 2vh;
+          margin-left: 2.5vw;
+          width: 65vw;
+          height: 30vh;
+          background-color: white;
+          font-size: 50px;
+          border-radius: 7%;
+      }
+  
+  
+      .number {
+          width: 55vw;
+          height: 50vh;
+          background-color: #2f3e46;
+      }
+  
+  
+  
+      .operators {
+          display: flex;
+          flex-direction: column;
+          width: 15vw;
+          height: 50vh;
+          background-color: #001219;
+      }
+  
+  
+      .zero {
+          margin-left: 2vw;
+          margin-top: 4vh;
+          height: 8vh;
+          width: 15vw;
+          border-radius: 80px;
+          background-color: #f8f9fa;
+          color: black;
+          font-size: larger;
+          font-weight:bolder;
+      }
+  
+      .AC , .C , .add , .sub , .did , .mul{
+          font-weight:bolder;
+      }
+      
+  }
